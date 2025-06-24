@@ -1,0 +1,79 @@
+body {
+  background: #232526;
+  font-family: "Arial", sans-serif;
+}
+.movie-card {
+  max-width: 850px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+.movie-header {
+  background: #414345;
+  color: white;
+  padding: 28px 20px 18px 20px;
+}
+.movie-header h1 {
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+.movie-header p {
+  font-size: 18px;
+  color: #e0e0e0;
+}
+.poster {
+  max-width: 100%;
+  border-radius: 12px;
+}
+.chip {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 3px 3px 3px 0;
+  font-size: 16px;
+  color: white;
+  background: #6a11cb;
+  border-radius: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.rating {
+  font-size: 18px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-title {
+  font-weight: 600;
+  color: #232526;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.details-list strong {
+  color: #2575fc;
+}
+.stars-container {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 24px;
+  vertical-align: middle;
+}
+.stars-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.stars {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+.stars img {
+  width: 120px;
+  height: 100%;
+  position: absolute;
+}
